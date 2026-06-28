@@ -32,22 +32,22 @@ CPP_MODULES/
   * C++ girdi/çıktı akışlarını (`std::cout`, `std::cin`) kullanmayı ve girdi akışının sonlandırılması (EOF - Ctrl+D) gibi kritik uç durumları (edge cases) kontrol etmeyi.
   * `const` ve `static` anahtar kelimelerinin üye fonksiyonlar ve değişkenler üzerindeki rollerini.
 
-### 2. [CPP Module 01](./cpp01) - Bellek Yönetimi ve Adresleme
+### 2. [CPP Module 01](https://github.com/Ynsemreaykr/CPP-Modules/tree/main/cpp01) - Bellek Yönetimi ve Adresleme
 * **Amacı**: C++ dilinde bellek yönetiminin temel taşlarını (Stack vs Heap), bellek tahsis yöntemlerini, referansları ve dosya akışlarını kavramak.
 * **Neler Öğretir / Kazandırır**:
   * Dinamik bellek yönetimini C++ tarzında (`new` ve `delete` / `new[]` ve `delete[]`) gerçekleştirmeyi ve bellek sızıntılarını (memory leaks) tamamen önlemeyi.
   * Değişken takma adları olan Referans (`Reference`) kavramını, pointerlar ile farklarını ve hangi durumlarda hangisinin tercih edilmesi gerektiğini.
-  * Dosya akış kütüphaneleri (`std::ifstream`, `std::ofstream`) ile güvenli şekilde dosya okuma ve yazma operasyonları gerçekleştirmeyi.
+  * Dosya akış kütüphaneleri (`std::ifstream`, `std::ofstream`) ile güvenli şekilde dosya okuma ve yazma operasyonları gerçekleştirmeyi. 
   * Sınıf üye fonksiyon pointerlarını (Member Function Pointers) dizi yapılarıyla kullanarak dinamik metod yönlendirmesi yapabilmeyi (böylece karmaşık switch-case yapılarını temizlemeyi).
 
-### 3. [CPP Module 02](./cpp02) - Ad-hoc Polimorfizm, Operatör Aşırı Yükleme ve Kanonik Sınıf Formu
+### 3. [CPP Module 02](https://github.com/Ynsemreaykr/CPP-Modules/tree/main/cpp02) - Ad-hoc Polimorfizm, Operatör Aşırı Yükleme ve Kanonik Sınıf Formu
 * **Amacı**: C++ sınıflarının güvenli kopyalama ve atama davranışlarını standartlaştırmak, operatörleri aşırı yükleyerek özel veri tiplerini doğal veri tipleri gibi kullanmak ve sabit noktalı sayı aritmetiğini sıfırdan geliştirmek.
 * **Neler Öğretir / Kazandırır**:
   * C++'ın en önemli sınıf tasarım standartlarından biri olan **Ortodoks Kanonik Sınıf Formu'nu (Orthodox Canonical Class Form)** tüm kurallarıyla (Default Constructor, Copy Constructor, Copy Assignment Operator, Destructor) uygulamayı.
   * Nesnelerin kendi aralarında aritmetik (`+`, `-`, `*`, `/`), karşılaştırma (`>`, `<`, `>=`, `<=`, `==`, `!=`) ve artırma/azaltma (`++`, `--`) işlemlerini doğrudan yapabilmesi için operatör aşırı yüklemeyi (operator overloading).
   * Kayan noktalı (float) sayıların işlemci seviyesindeki temsilini anlamayı ve sabit noktalı (fixed-point) sayı aritmetiğini bit kaydırma (`<<`, `>>`) operatörleriyle sıfırdan kurmayı.
 
-### 4. [CPP Module 03](./cpp03) - Kalıtım (Inheritance)
+### 4. [CPP Module 03](https://github.com/Ynsemreaykr/CPP-Modules/tree/main/cpp03) - Kalıtım (Inheritance)
 * **Amacı**: Sınıflar arası hiyerarşik ilişkiler kurarak kod tekrarını önlemeyi, kalıtım mekanizmalarını ve çoklu kalıtım (multiple inheritance) problemlerini incelemek.
 * **Neler Öğretir / Kazandırır**:
   * Sınıflar arasında "is-a" (bir nesnedir) ilişkisi kurarak ortak kod tabanını genişletmeyi ve kodun yeniden kullanılabilirliğini (reusability) artırmayı.
@@ -55,7 +55,7 @@ CPP_MODULES/
   * Erişim belirteçlerinin kalıtım altındaki davranışlarını ve `protected` anahtar kelimesinin alt sınıflarla olan ilişkisini.
   * Çoklu kalıtımda ortaya çıkan ünlü "Diamond Problem" (Elmas Sorunu) karmaşasını çözmek için `virtual` kalıtım mekanizmasını kullanmayı.
 
-### 5. [CPP Module 04](./cpp04) - Alt Tip Polimorfizmi, Soyut Sınıflar ve Arayüzler
+### 5. [CPP Module 04](https://github.com/Ynsemreaykr/CPP-Modules/tree/main/cpp04) - Alt Tip Polimorfizmi, Soyut Sınıflar ve Arayüzler
 * **Amacı**: C++'ın en güçlü Nesne Yönelimli özelliklerinden biri olan Polimorfizmi (Çok Biçimlilik) anlamak, soyut sınıflar (Abstract Classes) ve arayüzler (Interfaces) ile yazılım şablonları tasarlamak.
 * **Neler Öğretir / Kazandırır**:
   * Çalışma zamanı çok biçimliliğini (Runtime Polymorphism) ve `virtual` anahtar kelimesiyle sanal fonksiyonlar oluşturmayı.
