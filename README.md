@@ -22,7 +22,7 @@ CPP_MODULES/
 
 ## 🧠 Modüllerin Amacı, Öğrettikleri ve Kazandırdıkları
 
-### 1. [CPP Module 00](./cpp0) - Nesne Yönelimli Programlamaya Giriş
+### 1. [CPP Module 00](./cpp00) - Nesne Yönelimli Programlamaya Giriş
 * **Amacı**: C dilinin prosedürel alışkanlıklarından sıyrılarak Nesne Yönelimli Programlama (OOP) düşünce yapısına adapte olmak ve C++ dilinin temel sözdizimini (syntax) kavramak.
 * **Neler Öğretir / Kazandırır**:
   * İsim çakışmalarını önlemek için ad uzaylarını (`namespace`) etkin kullanmayı.
