@@ -32,7 +32,7 @@ CPP_MODULES/
   * C++ girdi/çıktı akışlarını (`std::cout`, `std::cin`) kullanmayı ve girdi akışının sonlandırılması (EOF - Ctrl+D) gibi kritik uç durumları (edge cases) kontrol etmeyi.
   * `const` ve `static` anahtar kelimelerinin üye fonksiyonlar ve değişkenler üzerindeki rollerini.
 
-### 2. [CPP Module 01](./cpp01)(file:///c:/Users/emrea/OneDrive/Masaüstü/cppyedek/cpp01) - Bellek Yönetimi ve Adresleme
+### 2. [CPP Module 01](./cpp01) - Bellek Yönetimi ve Adresleme
 * **Amacı**: C++ dilinde bellek yönetiminin temel taşlarını (Stack vs Heap), bellek tahsis yöntemlerini, referansları ve dosya akışlarını kavramak.
 * **Neler Öğretir / Kazandırır**:
   * Dinamik bellek yönetimini C++ tarzında (`new` ve `delete` / `new[]` ve `delete[]`) gerçekleştirmeyi ve bellek sızıntılarını (memory leaks) tamamen önlemeyi.
